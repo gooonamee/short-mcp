@@ -1,0 +1,6 @@
+# Smithery MCP Server Configuration
+# https://smithery.ai/docs/config
+
+startCommand:
+  type: http
+  url: "https://s.gooo.name/mcp"
