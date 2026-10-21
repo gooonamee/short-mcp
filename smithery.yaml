@@ -3,4 +3,4 @@
 
 startCommand:
   type: http
-  url: "https://s.gooo.name/mcp"
+  url: "https://short.gooo.name/mcp"
