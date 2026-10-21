@@ -1,0 +1,10 @@
+{
+  "name": "short",
+  "displayName": "Short",
+  "version": "1.0.0",
+  "description": "好縮 (short.gooo.name) 短網址 MCP：提供縮短網址、自訂短碼、密碼保護、點擊統計，用 Google 登入綁定會員帳號。好用方便",
+  "author": { "name": "goooname" },
+  "homepage": "https://short.gooo.name",
+  "repository": "https://github.com/gooonamee/short-mcp",
+  "keywords": ["url-shortener", "short-url", "mcp", "gooo"]
+}
