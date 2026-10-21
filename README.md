@@ -106,7 +106,21 @@ Muse 支援透過 SSE 或 HTTP 連接 MCP。在 Muse 設定檔（或專案 `muse
 
 ---
 
-### 6. 🏄 Windsurf / VS Code (Roo Code, Cline, Continue)
+### 6. 💬 OpenAI / ChatGPT (Custom MCP Server / Developer Mode)
+依照 OpenAI 官方自訂 MCP 連接規範：
+1. 進入 ChatGPT **Settings** ➔ **Security and login** ➔ 開啟 **Developer mode**（支援 Plus / Pro / Team / Business / Enterprise 工作區）。
+2. 在 Plugins / Apps 界面中點選 **+** ➔ **Add custom MCP server**。
+3. 輸入伺服器端點網址：
+   ```text
+   https://short.gooo.name/mcp
+   ```
+4. 驗證方式選擇 **No authentication**（好縮支援免金鑰訪客模式，或由對話中輸入「登入好縮」完成綁定）。
+5. 點擊建立，ChatGPT 將自動完成 `initialize` 握手與 `tools/list` 探索，掃描並載入 7 項好縮專屬工具！
+*亦可參考本 repository 提供的 [`chatgpt.json`](./chatgpt.json)。*
+
+---
+
+### 7. 🏄 Windsurf / VS Code (Roo Code, Cline, Continue)
 在 Windsurf MCP 配置檔（`~/.codeium/windsurf/mcp_config.json`）或 VS Code 外掛設定中加入：
 ```json
 {
